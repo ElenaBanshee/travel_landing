@@ -1,0 +1,56 @@
+.hexa{
+	position:relative;
+	left: 38px;
+	top: 72px;
+}
+.hexagon{
+	position: absolute;	
+}
+.scale{
+	transform: scale(0.6,0.6);
+	left:0px;
+	top:0px;
+}
+.h_sq{
+	position:absolute;
+	border-radius:10px;
+	width:114px;
+	height:114px;
+	background-color:#fff;
+}
+.t_sq_1{
+	left:10px;
+	top:10px;
+	z-index:11;
+	transform:rotate(120deg);
+	box-shadow: 6px -5px 8px 0px rgba(0, 0, 0, 0.19);
+}
+.t_sq_2{
+	left:48px;
+	top:10px;
+	z-index:11;
+	transform:rotate(60deg);
+	box-shadow: 6px -5px 8px 0px rgba(0, 0, 0, 0.19);
+}
+.t_sq_3{
+	left:67px;
+	top:-23px;
+	z-index:12;
+}
+.t_sq_4{
+	left:10px;
+	top:-57px;
+	z-index:13;
+	transform:rotate(-120deg);
+}
+.t_sq_5{
+	left:-9px;
+	top:-23px;
+	z-index:10;
+}
+.t_sq_6{
+	left:48px;
+	top:-57px;
+	z-index:12;
+	transform:rotate(-60deg);
+}
