@@ -83,6 +83,18 @@ function sender_contacts() {
 /*******************************/
 $(document).ready(function(){	
 /*******************************/
+$(function(){
+	var dist_links = $("#author_links").offset().top  - $(window).height();	
+	$(window).scroll(function(){
+		if($(window).scrollTop() > dist_links){
+			$("#a_links").addClass("visible_links");
+		}
+		else{
+			$("#a_links").removeClass("visible_links");
+		}
+	});
+});
+/****************************/
 function Anchor(active){
 	if(active==true){
 		var hash = window.location.hash;
